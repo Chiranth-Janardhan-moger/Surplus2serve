@@ -85,12 +85,16 @@ surplus2serve/
 cd backend
 npm install
 ```
-### Step 2: Create .env file 
+### Step 2: Create `.env` File
 
-TWILIO_ACCOUNT_SID=
-TWILIO_AUTH_TOKEN=
-TWILIO_PHONE_NUMBER=
-OPENCAGE_API_KEY=
+Create a `.env` file inside the `backend/` folder and add the following content:
+
+```env
+TWILIO_ACCOUNT_SID=your_twilio_sid
+TWILIO_AUTH_TOKEN=your_twilio_auth_token
+TWILIO_PHONE_NUMBER=your_twilio_phone_number
+OPENCAGE_API_KEY=your_opencage_api_key
+```
 
 ### Step 3: Start the server
 
@@ -106,9 +110,10 @@ npm run dev
 ```
 
 ### 🗃️ Database
-Run the SQL script in database/schema.sql using phpMyAdmin or MySQL CLI.
 
-Make sure MySQL service is running in XAMPP.
+1. Make sure the **MySQL service** is running in **XAMPP**.
+2. Open **phpMyAdmin** or any MySQL client.
+3. Run the SQL script located at: **database/schema.sql**
 
-Database name: food_donation_app
+
 
