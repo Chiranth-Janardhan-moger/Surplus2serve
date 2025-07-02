@@ -22,8 +22,7 @@
 
 ## 📁 Core Project Structure
 
-```bash
-
+```sh
 surplus2serve/
 ├── backend/
 │ ├── .env
@@ -76,8 +75,7 @@ surplus2serve/
 ├── package-lock.json
 ├── package.json
 └── README.md ← You are here
-
----
+```
 
 ## ⚙️ Backend Setup
 
