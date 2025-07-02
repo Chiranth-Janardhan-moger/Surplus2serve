@@ -84,3 +84,31 @@ surplus2serve/
 ```bash
 cd backend
 npm install
+```
+### Step 2: Create .env file 
+
+TWILIO_ACCOUNT_SID=
+TWILIO_AUTH_TOKEN=
+TWILIO_PHONE_NUMBER=
+OPENCAGE_API_KEY=
+
+### Step 3: Start the server
+
+```bash
+npm run dev
+```
+
+## 🖥️ Frontend Setup
+```sh 
+cd frontend
+npm install
+npm run dev
+```
+
+### 🗃️ Database
+Run the SQL script in database/schema.sql using phpMyAdmin or MySQL CLI.
+
+Make sure MySQL service is running in XAMPP.
+
+Database name: food_donation_app
+
