@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary-green: #65a30d;
+    --primary-green-dark: #4d7c0f;
+    --primary-green-light: #84cc16;
+    --secondary-beige: #fef3c7;
+    --text-dark: #1f2937;
+    --text-light: #4b5563;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-3 rounded-full font-semibold transition-all duration-300 flex items-center justify-center gap-2;
+  }
+
+  .btn-primary {
+    @apply btn bg-gradient-to-r from-lime-600 to-lime-500 text-white shadow-lg shadow-lime-200 
+           hover:translate-y-[-2px] hover:shadow-xl hover:shadow-lime-200;
+  }
+
+  .btn-outline {
+    @apply btn border-2 border-lime-600 text-lime-700 hover:bg-lime-50;
+  }
+
+  .stat-card {
+    @apply bg-white p-4 rounded-lg shadow-lg text-center;
+  }
+}
