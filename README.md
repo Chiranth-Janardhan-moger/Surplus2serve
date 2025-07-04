@@ -109,12 +109,12 @@ npm install
 npm run dev
 ```
 
-### 🗃️ Database
+## 🗃️ Database
 
 1. Make sure the **MySQL service** is running in **XAMPP**.
 2. Open **phpMyAdmin** or any MySQL client.
 3. Run the SQL script located at: **database/schema.sql**
 
-### Some ScreenShots of project:
+## Some ScreenShots of project:
 - home page
 
