@@ -115,5 +115,6 @@ npm run dev
 2. Open **phpMyAdmin** or any MySQL client.
 3. Run the SQL script located at: **database/schema.sql**
 
-
+### Some ScreenShots of project:
+- home page
 
