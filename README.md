@@ -1,10 +1,10 @@
-# 🍱 Surplus2Serve
+#  Surplus2Serve
 
 **Surplus2Serve** is a full-stack web application that bridges the gap between food donors and NGOs. It aims to reduce food waste by enabling real-time donations and pickups through a streamlined interface for both donors and NGOs.
 
 ---
 
-## 🛠️ Tech Stack
+## ️ Tech Stack
 
 **Frontend:**  
 - React  
@@ -20,7 +20,7 @@
 
 ---
 
-## 📁 Core Project Structure
+##  Core Project Structure
 
 ```sh
 surplus2serve/
@@ -77,7 +77,7 @@ surplus2serve/
 └── README.md ← You are here
 ```
 
-## ⚙️ Backend Setup
+## ️ Backend Setup
 
 ### Step 1: Install dependencies
 
@@ -102,14 +102,14 @@ OPENCAGE_API_KEY=your_opencage_api_key
 npm run dev
 ```
 
-## 🖥️ Frontend Setup
+## ️ Frontend Setup
 ```sh 
 cd frontend
 npm install
 npm run dev
 ```
 
-## 🗃️ Database
+## ️ Database
 
 1. Make sure the **MySQL service** is running in **XAMPP**.
 2. Open **phpMyAdmin** or any MySQL client.
